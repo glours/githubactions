@@ -14,3 +14,4 @@ jobs:
       uses: lowply/auto-closer@0.0.3
       env: 
         AC_LABEL: kind/question
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
