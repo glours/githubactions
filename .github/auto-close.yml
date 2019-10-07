@@ -1,0 +1,2 @@
+- name: Auto Closer
+  uses: lowply/auto-closer@0.0.3
