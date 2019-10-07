@@ -1,0 +1,14 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Auto Closer
+      uses: lowply/auto-closer@0.0.3
+      env: 
+        AC_LABEL: kind/question
