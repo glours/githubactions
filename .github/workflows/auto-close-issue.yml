@@ -11,7 +11,7 @@ jobs:
     
     steps:
     - name: Auto Closer
-      uses: lowply/auto-closer@0.0.3
-      env: 
-        AC_LABEL: question
+      uses: bdougie/close-issues-based-on-label@master
+      env:
+        LABEL: kind/question
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
